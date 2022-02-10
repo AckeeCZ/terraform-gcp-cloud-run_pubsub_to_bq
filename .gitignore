@@ -1,0 +1,4 @@
+code/env
+example/.terraform
+example/terraform.tfstate*
+example/.terraform.lock.hcl
