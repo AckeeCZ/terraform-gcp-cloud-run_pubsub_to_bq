@@ -24,13 +24,12 @@ resource "google_cloud_run_service" "default" {
       }
       service_account_name = google_service_account.sa.email
     }
-  }
-
-  metadata {
-    annotations = {
-      "run.googleapis.com/ingress"       = "all"
-      "autoscaling.knative.dev/minScale" = "0"
-      "autoscaling.knative.dev/maxScale" = "10"
+    metadata {
+      annotations = {
+        "run.googleapis.com/ingress"       = "all"
+        "autoscaling.knative.dev/minScale" = "0"
+        "autoscaling.knative.dev/maxScale" = "10"
+      }
     }
   }
 
