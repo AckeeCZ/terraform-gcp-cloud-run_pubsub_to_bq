@@ -1,6 +1,6 @@
 cachetools==4.2.4
 certifi==2021.5.30
-charset-normalizer==2.0.6
+charset-normalizer==2.1.1
 google-api-core==2.0.1
 google-auth==2.2.1
 google-cloud-bigquery==2.32.0
